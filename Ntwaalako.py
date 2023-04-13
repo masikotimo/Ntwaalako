@@ -96,10 +96,6 @@ if __name__ == '__main__':
         print('yeah')
         rider1.pay_hold_invoice(ride1,driver1)
 
-    # Rider2 requests a ride
-    # ride2 = rider2.request_ride(driver_id=101, destination='A', cost=25)
-    # if ride2:
-    #     # Rider2 pays hold invoice
-    #     rider2.pay_hold_invoice(ride2,driver1)
+
 
     print(driver1.get_wallet_balance())
